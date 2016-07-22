@@ -1,0 +1,4 @@
+#ifndef SIMPLERAND_H_INCLUDED
+#define SIMPLERAND_H_INCLUDED 1
+
+#endif

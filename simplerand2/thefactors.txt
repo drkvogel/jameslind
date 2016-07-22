@@ -1,0 +1,19 @@
+nrand, nranda, nrandb
+
+nranda, nranda2, nrandb, nrandb2,
+
+fact1_1an, fact1_1a, fact1_1an2, fact1_1a2, fact1_1bn, fact1_1b, fact1_1bn2, fact1_1b2,
+fact1_2an, fact1_2a, fact1_2an2, fact1_2a2, fact1_2bn, fact1_2b, fact1_2bn2, fact1_2b2,
+
+fact2_1an, fact2_1a, fact2_1an2, fact2_1a2, fact2_1bn, fact2_1b, fact2_1bn2, fact2_1b2,
+fact2_2an, fact2_2a, fact2_2an2, fact2_2a2, fact2_2bn, fact2_2b, fact2_2bn2, fact2_2b2,
+fact2_3an, fact2_3a, fact2_3an2, fact2_3a2, fact2_3bn, fact2_3b, fact2_3bn2, fact2_3b2,
+
+fact3_1an, fact3_1a, fact3_1an2, fact3_1a2, fact3_1bn, fact3_1b, fact3_1bn2, fact3_1b2,
+fact3_2an, fact3_2a, fact3_2an2, fact3_2a2, fact3_2bn, fact3_2b, fact3_2bn2, fact3_2b2,
+fact3_3an, fact3_3a, fact3_3an2, fact3_3a2, fact3_3bn, fact3_3b, fact3_3bn2, fact3_3b2,
+fact3_4an, fact3_4a, fact3_4an2, fact3_4a2, fact3_4bn, fact3_4b, fact3_4bn2, fact3_4b2,
+
+factx_1an, factx_1a, factx_1an2, factx_1a2, factx_1bn, factx_1b, factx_1bn2, factx_1b2,
+factx_2an, factx_2a, factx_2an2, factx_2a2, factx_2bn, factx_2b, factx_2bn2, factx_2b2,
+

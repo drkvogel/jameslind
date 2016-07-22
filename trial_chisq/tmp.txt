@@ -1,0 +1,1000 @@
+   69  ps -aef | grep cp
+   70  ./clink trial_chisq4
+   71  ps -aef | grep cp
+   72  ps -aef | grep trial
+   73  ps -aef | grep trial
+   74  ps -aef | grep cp
+   75  ./a.out
+   76  cci foo.c
+   77  ./a.out
+   78  date
+   79  cci foo.c
+   80  cp a.out ~/public_html/cjb/gifplot.cgi 
+   81  ./a.out
+   82  cci test.c
+   83  ./a.out
+   84  ./a.out
+   85  cci test.c
+   86  cp a.out test
+   87  ./test
+   88  cci foo.c
+   89  ./a.out
+   90  cci foo.c
+   91  ./a.out
+   92  date
+   93  ll /tmp
+   94  ./a.out
+   95  ll /tmp
+   96  cci foo.c
+   97  cp a.out ~/public_html/cjb/gifplot.cgi 
+   98  ll /tmp
+   99  date
+  100  ll /tmp
+  101  test
+  102  tes
+  103  tes
+  104  test
+  105  man test
+  106  dat
+  107  date
+  108  cci test.c
+  109  cp a.out test
+  110  cci test.c
+  111  cp a.out test
+  112  ll /tmp
+  113  cci foo.c
+  114  cci foo.c
+  115  cp a.out ~/public_html/cjb/gifplot.cgi 
+  116  ll /tmp
+  117  cat test
+  118  cat test.test
+  119  cat test.txt
+  120  cat /tmp/test.txt
+  121  ll /tmp
+  122  ./test
+  123  ./trial_chisq
+  124  ll /tmp
+  125  date
+  126  date
+  127  ./test
+  128  ./trial_chisq
+  129  ll /tmp
+  130  date
+  131  date
+  132  date
+  133  date
+  134  date
+  135  date
+  136  date
+  137  date
+  138  date
+  139  date
+  140  date
+  141  date
+  142  date
+  143  date
+  144  date
+  145  date
+  146  date
+  147  date
+  148  date
+  149  date
+  150  date
+  151  date
+  152  date
+  153  date
+  154  date
+  155  date
+  156  date
+  157  date
+  158  date
+  159  date
+  160  date
+  161  ll /tmp
+  162  rm /tmp/test.gif
+  163  ll /tmp
+  164  ./clink trial_chisq4
+  165  ./clink trial_chisq4
+  166  clinkwrap trial_chisq_sub
+  167  ./clinkwrap trial_chisq_sub
+  168  chmod 755 clinkwrap 
+  169  ./clinkwrap trial_chisq_sub
+  170  ./clinkwrap trial_chisq_sub
+  171  ./clinkwrap trial_chisq_sub
+  172  ./clinkwrap trial_chisq_sub
+  173  ./clinkwrap trial_chisq_sub
+  174  ./clinkwrap trial_chisq_sub
+  175  ./clinkwrap trial_chisq_sub
+  176  ./clinkwrap trial_chisq_sub
+  177  ./clinkwrap trial_chisq_sub
+  178  ./clinkwrap trial_chisq_sub
+  179  ./clinkwrap trial_chisq_sub
+  180  ./clinkwrap trial_chisq_sub
+  181  man g77
+  182  gcc wrapper.c 
+  183  gcc -c wrapper.c 
+  184  ll *.o
+  185  ./clinkwrap trial_chisq_sub
+  186  ll -t
+  187  ll -t trial*
+  188  ./trial_chisq_sub
+  189  cci foo.c
+  190  cp a.out ~/public_html/cjb/gifplot.cgi 
+  191  date
+  192  ll /tmp
+  193  date
+  194  date
+  195  ./clinkwrap 
+  196  ./clinkwrap 
+  197  ./clinkwrap trial_chisq_sub
+  198  ll -t trial*
+  199  ll /tmp
+  200  ./trial_chisq_sub 
+  201  ll /tmp
+  202  ./trial_chisq_sub 
+  203  ll /tmp
+  204  man g77
+  205  man g77
+  206  man g77
+  207  cd public_html
+  208  ls
+  209  cd proj
+  210  telnet dune
+  211  vi index.htm
+  212  logout
+  213  ls
+  214  cd public_html
+  215  cd ingres
+  216  ls
+  217  vi cronjobs.htm
+  218  vi cronjobs.htm
+  219  vi cronjobs.htm
+  220  logout
+  221  set
+  222  set > env2.txt
+  223  export TERM=vt100
+  224  set
+  225  exit
+  226  cd cjb/jim/gifplot/
+  227  set
+  228  shell
+  229  set > env1.txt
+  230  cat env1.txt 
+  231  xterm &
+  232  diff env1.txt env2.txt
+  233  term
+  234  ll /tmp
+  235  ll /tmp
+  236  ll /tmp
+  237  ll /tmp
+  238  exit
+  239  cd cjb/jim/gifplot/
+  240  ls
+  241  cat clinkwrap 
+  242  nedit clinkwrap  &
+  243  ./clinkwrap 
+  244  ./clinkwrap trial_chisq4
+  245  ./clinkwrap trial_chisq4
+  246  ./clinkwrap trial_chisq_sbu
+  247  ./clinkwrap trial_chisq_sub
+  248  ll -t tria*
+  249  ./trial_chisq_sub 
+  250  cat setlib.sh 
+  251  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/pgplot
+  252  cat setlib.sh 
+  253  ./trial_chisq_sub 
+  254  ./test
+  255  ./test
+  256  cci test2.c
+  257  cp a.out test2
+  258  ./test2
+  259  cci foo.c
+  260  cp a.out ~/public_html/cjb/gifplot.cgi 
+  261  cci foo.c
+  262  ./a.out
+  263  ls
+  264  ./clink trial_chisq4
+  265  ./a.out
+  266  date
+  267  ll /tmp
+  268  ./a.out
+  269  ll /tmp
+  270  date
+  271  cci foo
+  272  cp ~/public_html/cjb/gifplot.cgi 
+  273  cp a.out ~/public_html/cjb/gifplot.cgi 
+  274  ll /tmp
+  275  cd /var/log/httpd/
+  276  ls
+  277  tail error_log
+  278  echo $LD_LIBRARY_PATH 
+  279  tail access_log
+  280  ls -l
+  281  tail suexec_log 
+  282  ps uax
+  283  groups
+  284  tail suexec_log 
+  285  tail error_log
+  286  tail access_log
+  287  tail ssl_request_log
+  288  ls -l
+  289  pwd
+  290  echo $LD_LIBRARY_PATH 
+  291  cci foo.c
+  292  cd ~/cjb/jim/gifplot/
+  293  ls
+  294  cci foo.c
+  295  cp a.out ~/public_html/cjb/gifplot.cgi 
+  296  ps -aef | grep cp
+  297  kill -9 17769
+  298  cci foo.c
+  299  cp a.out ~/public_html/cjb/gifplot.cgi 
+  300  date
+  301  ll /tmp
+  302  ./clink trial_chisq4
+  303  ./clink trial_chisq4
+  304  cd ~/public_html/
+  305  ls
+  306  cd cjb
+  307  ls
+  308  pwd
+  309  ./clink trial_chisq4
+  310  cd ~/cjb/jim/gifplot/
+  311  ./clink trial_chisq4
+  312  ./clink trial_chisq4
+  313  ls ~/public_html/cjb/
+  314  ll ~/public_html/cjb/
+  315  cci foo.c
+  316  cci foo.c
+  317  cci foo.c
+  318  cci foo.c
+  319  cci foo.c
+  320  cci foo.c
+  321  cp a.out ~/public_html/cjb/gifplot.cgi 
+  322  date
+  323  ll ~/public_html/cjb/*.gif
+  324  cp a.out ~/public_html/cjb/gifplot.cgi 
+  325  cci foo.c
+  326  cp a.out ~/public_html/cjb/gifplot.cgi 
+  327  cci foo.c
+  328  cp a.out ~/public_html/cjb/gifplot.cgi 
+  329  exit
+  330  telnet rum
+  331  telnet rum
+  332  exit
+  333  cd cjb/jim/gifplot/
+  334  ls
+  335  ll *.lock
+  336  ll *.lock
+  337  ll *.lock
+  338  ./a.out
+  339  ./a.out
+  340  ./a.out
+  341  ./a.out
+  342  ./a.out
+  343  ./a.out
+  344  exit
+  345  cd cjb/jim/gifplot/
+  346  nedit foo.c &
+  347  cci trial_chisq.c
+  348  cci trial_chisq.c
+  349  cp a.out ~/public_html/cjb/gifplot.cgi 
+  350  ./clink trial_chisq
+  351  cci trial_chisq.c
+  352  cp a.out ~/public_html/cjb/gifplot.cgi 
+  353  cp a.out ~/public_html/cjb/trial_chisq.cgi 
+  354  nedit ~/public_html/cjb/menu.html 
+  355  cci trial_chisq.c
+  356  locate stdio.h
+  357  nedit /usr/include/stdio.h &
+  358  cd /usr/include
+  359  dir
+  360  grep base *
+  361  grep base s*
+  362  grep cnt *
+  363  grep cnt * -d skip
+  364  grep -d skip cnt *
+  365  cd ~/cjb/jim/gifplot/
+  366  cci -g trial_chisq.c
+  367  cci -g trial_chisq.c
+  368  gdb
+  369  cci -g trial_chisq.c
+  370  gdb
+  371  locate passwd.c
+  372  cci -g trial_chisq.c
+  373  ./a.out
+  374  ./a.out
+  375  ./a.out
+  376  ll
+  377  ll tr*
+  378  cci -g trial_chisq.c
+  379  ./a.out
+  380  ps -aef | grep cp
+  381  cci -g trial_chisq.c
+  382  ./a.out
+  383  cci -g trial_chisq.c
+  384  nedit /usr/include/stdio.h
+  385  cci -g trial_chisq.c
+  386  cci -g trial_chisq.c
+  387  cci -g trial_chisq.c
+  388  ./a.out
+  389  ls tr*
+  390  rm trial_chisq.lock 
+  391  ./a.out
+  392  ./a.out
+  393  ls tr*
+  394  cci -g trial_chisq.c
+  395  ./a.out
+  396  cci -g trial_chisq.c
+  397  ./a.out
+  398  cci -g trial_chisq.c
+  399  ./a.out
+  400  locate mysleep
+  401  cat /user/cp/PROJ/SMS/test/mysleep.c
+  402  cci -g trial_chisq.c
+  403  cci -g trial_chisq.c
+  404  ./a.out
+  405  ./a.out
+  406  cci -g trial_chisq.c
+  407  ./a.out
+  408  cci -g trial_chisq.c
+  409  ./a.out
+  410  cci -g trial_chisq.c
+  411  cci -g trial_chisq.c
+  412  ./a.out
+  413  cci -g trial_chisq.c
+  414  ./a.out
+  415  cci -g trial_chisq.c
+  416  cp a.out ~/public_html/cjb/trial_chisq.cgi 
+  417  grep removed /var/log/httpd/
+  418  grep removed /var/log/httpd/*
+  419  cci -g trial_chisq.c
+  420  grep removed /var/log/httpd/*
+  421  cp a.out ~/public_html/cjb/trial_chisq.cgi 
+  422  diff trial_chisq trial_chisq_sub
+  423  diff trial_chisq.f trial_chisq_sub.f
+  424  cci -g trial_chisq.c
+  425  ./clinkwrap 
+  426  ./clinkwrap trial_chisq_sub
+  427  ll -t tr* 
+  428  ./trial_chisq_sub 
+  429  echo $LD_LIBRARY_PATH
+  430  ./clinkwrap trial_chisq_sub
+  431  ./clinkwrap trial_chisq_sub
+  432  ./clinkwrap trial_chisq_sub
+  433  ./clinkwrap trial_chisq_sub
+  434  ll -t
+  435  ./trial_chisq_sub 
+  436  ./clinkwrap trial_chisq_sub
+  437  ll -t
+  438  ./trial_chisq_s
+  439  ./clinkwrap trial_chisq_sub
+  440  ./trial_chisq_s
+  441  echo $LD_LIBRARY_PATH
+  442  ./clinkwrap trial_chisq_sub
+  443  ./clinkwrap trial_chisq_sub
+  444  ./clinkwrap trial_chisq_sub
+  445  ./clinkwrap trial_chisq_sub
+  446  ./clinkwrap trial_chisq_sub
+  447  ./clinkwrap trial_chisq_sub
+  448  ./clinkwrap trial_chisq_sub
+  449  ./trial_chisq_sub
+  450  cat setlib.sh 
+  451  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/pgplot
+  452  ./trial_chisq_sub
+  453  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/pgplot
+  454  ./clinkwrap trial_chisq_sub
+  455  ./trial_chisq_sub
+  456  ./a.out
+  457  ls a*
+  458  exit
+  459  cd cjb/jim/gifplot/
+  460  ls
+  461  ll tria*
+  462  ll tria*
+  463  ll tria*
+  464  ll tria*
+  465  ll tria*
+  466  ll tria*
+  467  ll tria*
+  468  ll tria*
+  469  ll tria*
+  470  ll tria*
+  471  ll tria*
+  472  exit
+  473  cd cjb/jim/gifplot/
+  474  nedit clinkwrap &
+  475  ./clinkwrap 
+  476  ./clinkwrap trial_chisq_sub
+  477  ./trial_chisq_s
+  478  ls lib*
+  479  date
+  480  ./trial_chisq_s
+  481  ./clinkwrap trial_chisq_sub
+  482  ls tri*
+  483  ll tri*
+  484  ll -t tri*
+  485  rm clinktest clinktest.sh
+  486  mv clinkwrap clinkwrap.sh
+  487  mv clink clink.sh
+  488  chmod 755 clinktest.sh 
+  489  ./clinktest.sh test
+  490  ll -t test*
+  491  ll -t
+  492  ./clinktest.sh test
+  493  ./clinktest.sh test
+  494  ./clinktest.sh test
+  495  ./clinktest.sh test
+  496  ./clinktest.sh test
+  497  ./clinktest.sh test
+  498  ./test_out
+  499  ./clinktest.sh test
+  500  ./test_out
+  501  locate pgplot
+  502  locate libpgplot
+  503  ls *.so
+  504  ls *.a
+  505  ./clinktest.sh test
+  506  ./test_out
+  507  cp a.out ~/public_html/cjb/test
+  508  cp test_out ~/public_html/cjb/test
+  509  ~/public_html/cjb/test
+  510  ls /public_html/cjb/test
+  511  ls ~/public_html/cjb/test
+  512  ls ~/public_html/cjb/
+  513  clinksub trial_chisq_sub
+  514  ./clinksub trial_chisq_sub
+  515  ./clinksub.sh trial_chisq_sub
+  516  chmod 755 clinksub.sh 
+  517  ./clinksub.sh trial_chisq_sub
+  518  ll -t
+  519  ./trial_chisq_sub_out
+  520  cp trial_chisq_sub_out ~/public_html/cjb/trial_chisq.cgi
+  521  ./trial_chisq_sub_out
+  522  ./clinksub.sh trial_chisq_sub
+  523  ./clinksub.sh trial_chisq_sub
+  524  cp trial_chisq_sub_out ~/public_html/cjb/trial_chisq.cgi
+  525  ./clinksub.sh trial_chisq_sub
+  526  cp trial_chisq_sub_out ~/public_html/cjb/trial_chisq.cgi
+  527  ls ~/public_html/cjb/
+  528  ls ~/public_html/cjb/
+  529  cp trial_chisq_sub_out ~/public_html/cjb/trial_chisq.cgi
+  530  ./clinksub.sh trial_chisq_sub
+  531  ./clinksub.sh trial_chisq_sub
+  532  cp trial_chisq_sub_out ~/public_html/cjb/trial_chisq.cgi
+  533  ./clinksub.sh trial_chisq_sub
+  534  cp trial_chisq_sub_out ~/public_html/cjb/trial_chisq.cgi
+  535  ./clinksub.sh trial_chisq_sub
+  536  ./clinksub.sh trial_chisq_sub
+  537  ./clinksub.sh trial_chisq_sub
+  538  cp trial_chisq_sub_out ~/public_html/cjb/trial_chisq.cgi
+  539  cp trial_chisq_sub_out ~/public_html/cjb/trial_chisq.cgi
+  540  ./clinksub.sh trial_chisq_sub
+  541  cp trial_chisq_sub_out ~/public_html/cjb/trial_chisq.cgi
+  542  cp trial_chisq_sub_out ~/public_html/cjb/trial_chisq.cgi
+  543  ./clinksub.sh trial_chisq_sub
+  544  cp trial_chisq_sub_out ~/public_html/cjb/trial_chisq.cgi
+  545  ls *.gif
+  546  cp trial_chisq_sub_out ~/public_html/cjb/trial_chisq.cgi
+  547  ./clinktest.sh test
+  548  date
+  549  ll test
+  550  ll test_out 
+  551  cp test_out ~/public_html/cjb/test.cgi
+  552  tail /var/log/httpd/
+  553  tail /var/log/httpd/error_log
+  554  ./test_out 
+  555  ./clink trial_chisq_sub
+  556  ./clinksub.sh trial_chisq_sub
+  557  ll -t tr*
+  558  fsyr
+  559  date
+  560  ./trial_chisq_sub_out
+  561  ./trial_chisq_sub_out
+  562  rm *.lock
+  563  ./trial_chisq_sub_out
+  564  ./trial_chisq_sub_out
+  565  cp trial_chisq_sub ~/public_html/cjb/trial_chisq.cgi
+  566  ./trial_chisq_sub_out
+  567  ./clinksub.sh trial_chisq_sub
+  568  cp trial_chisq_sub ~/public_html/cjb/trial_chisq.cgi
+  569  ll -t tr*
+  570  date
+  571  cp trial_chisq_sub ~/public_html/cjb/trial_chisq.cgi
+  572  ./clinksub.sh trial_chisq_sub
+  573  cp trial_chisq_sub ~/public_html/cjb/trial_chisq.cgi
+  574  ./clinktest test
+  575  ./clinktest.sh test
+  576  cp test ~/public_html/cjb/test.cgi 
+  577  ./clinktest.sh test
+  578  cp test ~/public_html/cjb/test.cgi 
+  579  tail /var/log/httpd/
+  580  tail /var/log/httpd/error_log
+  581  date
+  582  tail /var/log/httpd/error_log
+  583  date
+  584  chmod 755 clinkexec.sh 
+  585  ./clinkexec.sh trial_chisq_exec
+  586  ls *.f
+  587  ./clinkexec.sh trial_chisq_exec
+  588  ./clinkexec.sh trial_chisq_exec
+  589  alias
+  590  ./clinkexec.sh trial_chisq_exec
+  591  ll -t
+  592  ls -t
+  593  ./clinkexec.sh trial_chisq_exec
+  594  ./clinkexec.sh trial_chisq_exec
+  595  ll *.gif
+  596  ./clinkexec.sh trial_chisq_exec
+  597  ./clinkexec.sh trial_chisq_exec
+  598  ./clinksub.sh trial_chisq_sub
+  599  tail /var/log/httpd/error_log
+  600  tail /var/log/httpd/suexec_log 
+  601  tail /var/log/httpd/error_log
+  602  tail /var/log/httpd/error_log
+  603  datre
+  604  date
+  605  ./clinkexec.sh trial_chisq_exec
+  606  ./clinkexec.sh trial_chisq_exec
+  607  ./clinksub.sh trial_chisq_sub
+  608  ./clinksub.sh trial_chisq_sub
+  609  ./clinksub.sh trial_chisq_sub
+  610  ./clinksub.sh trial_chisq_sub
+  611  date
+  612  tail /var/log/httpd/error_log
+  613  tail /var/log/httpd/error_log
+  614  date
+  615  tail /var/log/httpd/access_log
+  616  tail /var/log/httpd/suexec_log 
+  617  ./clinksub.sh trial_chisq_sub
+  618  ./clinksub.sh trial_chisq_sub
+  619  ls -t
+  620  ./trial_chisq_sub_out
+  621  ./clinksub.sh trial_chisq_sub
+  622  ./trial_chisq_sub_out
+  623  date
+  624  ./trial_chisq_sub_out
+  625  ./clinksub.sh trial_chisq_sub
+  626  ./trial_chisq_sub_out
+  627  ./trial_chisq_sub_out
+  628  ./clinksub.sh trial_chisq_sub
+  629  ps -aef | grep cp
+  630  tail /var/log/httpd/error_log
+  631  tail /var/log/httpd/error_log
+  632  tail /var/log/httpd/error_log
+  633  tail /var/log/httpd/error_log
+  634  tail /var/log/httpd/error_log
+  635  tail /var/log/httpd/error_log
+  636  tail /var/log/httpd/error_log
+  637  tail /var/log/httpd/error_log
+  638  tail /var/log/httpd/error_log
+  639  tail /var/log/httpd/error_log
+  640  tail /var/log/httpd/error_log
+  641  tail /var/log/httpd/error_log
+  642  tail /var/log/httpd/error_log
+  643  ls *.lock
+  644  ll
+  645  tail /var/log/httpd/error_log
+  646  tail /var/log/httpd/error_log
+  647  tail /var/log/httpd/error_log
+  648  ls *.lock
+  649  ls *.lock
+  650  ll
+  651  ls -t
+  652  rm ~/public_html/cjb/trial_chisq.lock
+  653  tail /var/log/httpd/error_log
+  654  ./clinksub.sh trial_chisq_sub
+  655  rm ~/public_html/cjb/trial_chisq.lock
+  656  rm ~/public_html/cjb/trial_chisq.lock
+  657  rm ~/public_html/cjb/trial_chisq.lock
+  658  ls p.gif
+  659  ls ~/public_html/cjb/trial_chisq.lock
+  660  ls ~/public_html/cjb/
+  661  ./clinksub.sh trial_chisq_sub
+  662  ./clinksub.sh trial_chisq_sub
+  663  ./clinksub.sh trial_chisq_sub
+  664  rm ~/public_html/cjb/trial_chisq.lock
+  665  ./clinksub.sh trial_chisq_sub
+  666  ./clinksub.sh trial_chisq_sub
+  667  ./clinksub.sh trial_chisq_sub
+  668  rm ~/public_html/cjb/p.gif
+  669  rm ~/public_html/cjb/p.gif
+  670  rm ~/public_html/cjb/p.gif
+  671  rm ~/public_html/cjb/p.gif
+  672  ./clinksub.sh trial_chisq_sub
+  673  rm ~/public_html/cjb/p.gif
+  674  rm ~/public_html/cjb/p.gif
+  675  rm ~/public_html/cjb/p.gif
+  676  rm ~/public_html/cjb/p.gif
+  677  ./clinksub.sh trial_chisq_sub
+  678  rm ~/public_html/cjb/p.gif
+  679  rm ~/public_html/cjb/p.gif
+  680  ./clinksub.sh trial_chisq_sub
+  681  exit
+  682  cd /var/log/httpd/
+  683  ll -t
+  684  date
+  685  tail access_log
+  686  ll -t
+  687  tail suexec_log 
+  688  tail error_log
+  689  tail error_log
+  690  tail error_log
+  691  cd ~/cjb/jim/gifplot/
+  692  ls
+  693  cat clinksub.sh 
+  694  exit
+  695  ls
+  696  cd PROJ/
+  697  LS
+  698  cd SMS
+  699  crontab -l
+  700  exit
+  701  cd ~/public_html/cjb/
+  702  ls
+  703  alias
+  704  ls $II_SYSTEM/ingres/lib
+  705  ls
+  706  pwd
+  707  cd ~cj
+  708  cd ~/cjb
+  709  ls $@
+  710  ls
+  711  ll
+  712  cd tmp
+  713  ls
+  714  pwd
+  715  > asdjfds
+  716  ls
+  717  cat asdjfds 
+  718  ll asdjfds 
+  719  rm asdjfds 
+  720  > file1
+  721  > file2
+  722  > file3
+  723  ls
+  724  rm file* nile$@
+  725  ls
+  726  > file1
+  727  > file3
+  728  > file2
+  729  cp file* nile$@
+  730  ls
+  731  mv file* nile$@
+  732  ls
+  733  man mv
+  734  man mv
+  735  alias
+  736  set
+  737  cat .bashrc
+  738  ls
+  739  cd ..
+  740  cd ..
+  741  ls
+  742  cat .bashrc
+  743  LS
+  744  l
+  745  ls
+  746  cd cjb/
+  747  ls
+  748  cd trial_chisq/
+  749  ls
+  750  cd cjb/jim/gifplot/
+  751  ls
+  752  ll -t
+  753  ll -t
+  754  grep trial_chisq_sub_out *
+  755  nedit clinksub.sh &
+  756  ll
+  757  ls *.gif
+  758  gdb 
+  759  ll -t | head
+  760  ./clinksub.sh 
+  761  ./clinksub.sh trial_chisq_sub
+  762  ./clinksub.sh 
+  763  ll -t | head
+  764  ll
+  765  ll -t | head
+  766  nedit trial_chisq_sub_c.c &
+  767  ./clinksub.sh trial_chisq_sub
+  768  tail /var/log/httpd/error_log
+  769  ls *.lock
+  770  ls ~/public_html/cjb/*.lock
+  771  ls ~/public_html/cjb/
+  772  locate p.gif
+  773  locate '/p.gif'
+  774  ./clinksub.sh trial_chisq_sub
+  775  ls *.gif
+  776  ls ~/public_html/cjb/
+  777  tail /var/log/httpd/error_log
+  778  grep error2 *
+  779  ./clinksub.sh trial_chisq_sub
+  780  tail /var/log/httpd/error_log
+  781  tail /var/log/httpd/access_log
+  782  tail /var/log/httpd/suexec_log 
+  783  ./clinksub.sh trial_chisq_sub
+  784  ls
+  785  ll -t | head
+  786  date
+  787  ./trial_chisq_sub_out 
+  788  ll
+  789  ll *.gif
+  790  ll ~/public_html/cjb/*.gif
+  791  ./clinksub.sh trial_chisq_sub
+  792  ll ~/public_html/cjb/*.gif
+  793  ./trial_chisq_sub_out 
+  794  ll ~/public_html/cjb/*.gif
+  795  ./clinksub.sh trial_chisq_sub
+  796  rm ~/public_html/cjb/p.gif 
+  797  ./clinksub.sh trial_chisq_sub
+  798  ./clinksub.sh trial_chisq_sub
+  799  cd /var/log/httpd/
+  800  ls
+  801  tail suexec_log 
+  802  tail error_log
+  803  cd ~/cjb/jim/gifplot/
+  804  ls
+  805  mkdir temp
+  806  cp trial_chisq_sub* temp/trial_chisq_stdout*
+  807  ls temp
+  808  cp --help
+  809  ls
+  810  cd /var/log/httpd/
+  811  ls
+  812  man bash
+  813  popd
+  814  cd -
+  815  ls
+  816  cd -
+  817  cd -
+  818  man cd
+  819  man cd
+  820  man bash
+  821  chmod 755 clinkstdout.sh 
+  822  ./clinkstdout.sh 
+  823  ./clinkstdout.sh trial_chisq_stdout
+  824  alias
+  825  man cc
+  826  man gcc
+  827  gcc trial_chisq_stdout_main.c
+  828  gcc trial_chisq_stdout_main.c
+  829  gcc trial_chisq_stdout_main.c
+  830  ll -t | head
+  831  ./clinkstdout.sh 
+  832  ./clinkstdout.sh 
+  833  ./clinkstdout.sh 
+  834  ./clinkstdout.sh 
+  835  ./clinkstdout.sh 
+  836  ./clinkstdout.sh 
+  837  ./clinkstdout.sh 
+  838  ./clinkstdout.sh 
+  839  ./clinkstdout.sh 
+  840  ./clinkstdout.sh 
+  841  ./clinkstdout.sh 
+  842  ./clinkstdout.sh 
+  843  ./clinkstdout.sh 
+  844  ./clinkstdout.sh 
+  845  ./clinkstdout.sh 
+  846  ./clinkstdout.sh 
+  847  ./clinkstdout.sh 
+  848  man alias
+  849  man bash
+  850  alias
+  851  recent
+  852  alias recent='ll -t | head 10'
+  853  recent
+  854  alias recent='ll -t | head'
+  855  recent
+  856  man head
+  857  ls
+  858  recent
+  859  ll -t
+  860  recent
+  861  ls ~/public_html/cjb/
+  862  ll -t ~/public_html/cjb/
+  863  alias recent='ll -t | head'
+  864  ./clinkstdout.sh 
+  865  date
+  866  ll -t ~/public_html/cjb/
+  867  nedit ~/public_html/cjb/menu.html 
+  868  tail /var/log/httpd/error_log
+  869  ./clinkstdout.sh 
+  870  tail /var/log/httpd/error_log
+  871  date
+  872  ll -t ~/public_html/cjb/
+  873  date
+  874  ll -t ~/public_html/cjb/
+  875  ./clinkstdout.sh 
+  876  date
+  877  tail /var/log/httpd/error_log
+  878  ./clinkstdout.sh 
+  879  tail /var/log/httpd/error_log
+  880  date
+  881  ./clinkstdout.sh 
+  882  ./clinkstdout.sh 
+  883  ls /usr/local/pgplot/
+  884  ./clinkstdout.sh 
+  885  ./clinkstdout.sh 
+  886  ls ~/public_html/cjb/
+  887  ./clinkstdout.sh 
+  888  tail /var/log/httpd/error_log
+  889  ./clinkstdout.sh 
+  890  ./clinkstdout.sh 
+  891  ./clinkstdout.sh 
+  892  ll ~/public_html/cjb/
+  893  date
+  894  date
+  895  tail /var/log/httpd/error_log
+  896  rm ~/public_html/cjb/p.gif 
+  897  ./clinkstdout.sh 
+  898  ll -t ~/public_html/cjb/
+  899  ll a.out
+  900  date
+  901  ./clinkstdout.sh 
+  902  ll a.out
+  903  date
+  904  ll -t ~/public_html/cjb/
+  905  ./clinkstdout.sh 
+  906  mkdir new
+  907  mv x* new
+  908  ls
+  909  mv clinkstdout.sh new
+  910  mv trial_chisq_stdout* new
+  911  mv libchisq.a new
+  912  mv libpgplot.a new
+  913  ls tmp
+  914  ll tmp
+  915  cat tmp
+  916  cd new
+  917  ls
+  918  ./clinkstdout.sh 
+  919  ll ~/public_html/cjb/trial_chisq
+  920  date
+  921  ll ~/public_html/cjb/trial_chisq.cgi
+  922  ./clinkstdout.sh 
+  923  ll ~/public_html/cjb/trial_chisq.cgi
+  924  date
+  925  ls ~/cjb/
+  926  mkdir ~/cjb/trial_chisq
+  927  cp * ~/cjb/trial_chisq/
+  928  cd ~/cjb/trial_chisq/
+  929  ls
+  930  ./clinkstdout.sh 
+  931  date
+  932  ll ~/public_html/cjb/trial_chisq.cgi
+  933  mv trial_chisq_stdout_c.c trial_chisq_c.c
+  934  mv trial_chisq_stdout_f.f trial_chisq_f.f
+  935  mv trial_chisq_stdout_main.c trial_chisq_main.c
+  936  rm *.o
+  937  ls
+  938  rm trial_chisq_stdout_out 
+  939  rm clinkstdout.sh clink.sh
+  940  cp ../jim/gifplot/new/clinkstdout.sh .
+  941  mv clinkstdout.sh clink.sh
+  942  nedit clink.sh
+  943  ll ~/public_html/cjb/trial_chisq.cgi
+  944  date
+  945  ./clink.sh 
+  946  ll ~/public_html/cjb/trial_chisq.cgi
+  947  date
+  948  nedit trial_chisq_main.c &
+  949  ./clink.sh 
+  950  ./clink.sh 
+  951  ll
+  952  ./clink.sh 
+  953  cat clink.sh 
+  954  ./clink.sh 
+  955  ls ~cp/public_html/cjb
+  956  ./clink.sh 
+  957  ./clink.sh 
+  958  ./clink.sh 
+  959  ./clink.sh 
+  960  ./clink.sh 
+  961  ./clink.sh 
+  962  ./clink.sh 
+  963  ./clink.sh 
+  964  ./clink.sh 
+  965  ./clink.sh 
+  966  ll ~cp/public_html/cjb/trial_chisq.cgi
+  967  ./clink.sh 
+  968  cp a.out
+  969  pwd
+  970  man bash 
+  971  qafda 
+  972  man bash 
+  973  ./clink.sh 
+  974  ls *_main.c
+  975  ./clink.sh 
+  976  gcc trial_chisq_main.c
+  977  ls *.out
+  978  ./clink.sh 
+  979  ./clink.sh 
+  980  ./clink.sh 
+  981  man bash 
+  982  ./clink.sh 
+  983  ./clink.sh 
+  984  ./clink.sh 
+  985  ./clink.sh 
+  986  ./clink.sh 
+  987  ./clink.sh 
+  988  cp a.out ~cp/public_html/cjb/trial_chisq.cgi
+  989  ./clink.sh 
+  990  ls a.out
+  991  ./clink.sh 
+  992  ./clink.sh 
+  993  ./clink.sh 
+  994  ./clink.sh 
+  995  ./clink.sh 
+  996  ./clink.sh 
+  997  pwd
+  998  cd cjb/trial_chisq/
+  999  ls
+ 1000  exit
+ 1001  cd cjb/
+ 1002  ls
+ 1003  cd trial_chisq/
+ 1004  ls
+ 1005  nedit clink.sh &
+ 1006  ./clink.sh
+ 1007  ll -t | head
+ 1008  date
+ 1009  ./clink.sh
+ 1010  ./clink.sh
+ 1011  ./clink.sh
+ 1012  cp asldfjasf alsdfjsadf
+ 1013  cp sasd fatewaasg
+ 1014  ls
+ 1015  cp a.out asdfjsad/asdflksjf
+ 1016  ./clink.sh
+ 1017  ./clink.sh
+ 1018  cp a.out ~cp/public_html/cjb/trial_chisq.cgi
+ 1019  ./clink.sh
+ 1020  ./clink.sh
+ 1021  ./clink.sh
+ 1022  ./clink.sh
+ 1023  ls
+ 1024  ll
+ 1025  mkdir tmp
+ 1026  mv libpgplot.a tm
+ 1027  mv tm libpgplot.a
+ 1028  mv libpgplot.a tmp/
+ 1029  ./clink.sh
+ 1030  ./clink.sh
+ 1031  ./clink.sh
+ 1032  ./clink.sh
+ 1033  tail /var/log/httpd/error_log
+ 1034  ./clink.sh
+ 1035  mv tmp/libpgplot.a .
+ 1036  rm tmp
+ 1037  rmdir tmp
+ 1038  ./clink.sh
+ 1039  tail /var/log/httpd/error_log
+ 1040  date
+ 1041  ./clink.sh
+ 1042  ls
+ 1043  mkdir tmp
+ 1044  nautilus &
+ 1045  who
+ 1046  x
+ 1047  kfm
+ 1048  /usr/
+ 1049  /usr/bin/
+ 1050  cd /usr/bin/
+ 1051  ls
+ 1052  grep *fm*
+ 1053  grep *fm
+ 1054  ls | grep *fm*
+ 1055  ls | grep *fm
+ 1056  ls | grep k*
+ 1057  ls k*
+ 1058  kfmexec 
+ 1059  kfmclient 
+ 1060  kfmclient --help
+ 1061  kview
+ 1062  ls k*
+ 1063  ls | more
+ 1064  cd ~/cjb/trial_chisq/
+ 1065  ls
+ 1066  history
+ 1067  history | more
+ 1068  history > tmp.txt
