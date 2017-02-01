@@ -74,50 +74,50 @@ c
 
 
 c initialise vars
-        fact1_1a=0
-	fact1_1b=0
-	fact1_2a=0
-	fact1_2b=0
-	fact2_1a=0
+      fact1_1a=0
+      fact1_1b=0
+      fact1_2a=0
+      fact1_2b=0
+      fact2_1a=0
       fact2_1b=0
       fact2_2a=0
-	fact2_2b=0
-	fact2_3a=0
-	fact2_3b=0
-        fact3_1a=0
-        fact3_1b=0
-	fact3_2a=0
-	fact3_2b=0
-	fact3_3a=0
-        fact3_3b=0
-	fact3_4a=0
-	fact3_4b=0
-	factx_1a=0
-	factx_1b=0
-        factx_2a=0
-	factx_2b=0
-	fact1_1an=0
-	fact1_1bn=0
-	fact1_2an=0
-        fact1_2bn=0
-	fact2_1an=0
-	fact2_1bn=0
-	fact2_2an=0
-	fact2_2bn=0
-        fact2_3an=0
+      fact2_2b=0
+      fact2_3a=0
+      fact2_3b=0
+      fact3_1a=0
+      fact3_1b=0
+      fact3_2a=0
+      fact3_2b=0
+      fact3_3a=0
+      fact3_3b=0
+      fact3_4a=0
+      fact3_4b=0
+      factx_1a=0
+      factx_1b=0
+      factx_2a=0
+      factx_2b=0
+      fact1_1an=0
+      fact1_1bn=0
+      fact1_2an=0
+      fact1_2bn=0
+      fact2_1an=0
+      fact2_1bn=0
+      fact2_2an=0
+      fact2_2bn=0
+      fact2_3an=0
       fact2_3bn=0
-	fact3_1an=0
-	fact3_1bn=0
-        fact3_2an=0
-	fact3_2bn=0
-	fact3_3an=0
-	fact3_3bn=0
-	fact3_4an=0
-        fact3_4bn=0
-	factx_1an=0
-	factx_1bn=0
-	factx_2an=0
-	factx_2bn=0
+      fact3_1an=0
+      fact3_1bn=0
+      fact3_2an=0
+      fact3_2bn=0
+      fact3_3an=0
+      fact3_3bn=0
+      fact3_4an=0
+      fact3_4bn=0
+      factx_1an=0
+      factx_1bn=0
+      factx_2an=0
+      factx_2bn=0
 
       nranda=0
       nrandb=0 
@@ -193,14 +193,14 @@ c     factor X (a factor chosen by the user)
 
 c       call random(randno)
         randno=Rand()       
-	if(iform.eq.1)then
+        if(iform.eq.1)then
           if(randno.lt.0.05)then
               factx(1,trtdim)=factx(1,trtdim)+1
           else 
               factx(2,trtdim)=factx(2,trtdim)+1
           endif
         else
-	  if(randno.lt.propxpc)then
+	      if(randno.lt.propxpc)then
               factx(1,trtdim)=factx(1,trtdim)+1
           else 
               factx(2,trtdim)=factx(2,trtdim)+1

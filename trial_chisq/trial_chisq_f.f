@@ -1,6 +1,6 @@
-      subroutine plot(param1, param2)
+    subroutine plot(param1, param2)
       
-      integer param1, param2
+    integer param1, param2
     
 	integer dt, dc, nt, nc, total, iff, i, j
 	integer dt_init, dc_init, nt_init, nc_init
@@ -9,7 +9,7 @@
 	real*8 logodds, logci1, logci2, chisq, g01ecf, ndf, alogx
 	character textstr*70/' '/, xstr*5/' '/
 	character alog(-2:2)*5/'0.01','0.1 ','1.0 ','10  ','100 '/
-      character temp*256/'temp'/
+    character temp*256/'temp'/
 
 	integer PGBEG
 	real xmin/-2.0/,xmax/5.0/,ymin/0.0/,ymax/10.0/
@@ -34,10 +34,10 @@ c      print*,'param1:',param1,'param2:',param2
 c      return
 
 c open graphics device
-c        IF (PGBEG(0,'?',1,1) .NE. 1) STOP
+c   IF (PGBEG(0,'?',1,1) .NE. 1) STOP
 
-c	  IF (PGBEG(0,'/user/cp/public_html/cjb/p.gif/GIF',1,1) .NE. 1) STOP
-	  IF (PGBEG(0,'-/GIF',1,1) .NE. 1) STOP
+c IF (PGBEG(0,'/user/cp/public_html/cjb/p.gif/GIF',1,1) .NE. 1) STOP
+	IF (PGBEG(0,'-/GIF',1,1) .NE. 1) STOP
 
 c set character font : 2=roman
 	call pgscf(2)

@@ -119,17 +119,17 @@ c     factor X (a factor chosen by the user)
 
 c       call random(randno)
         randno=Rand()       
-	if(iform.eq.0)then
+	      if(iform.eq.0)then
           if(randno.lt.0.05)then
               factx(1,trtdim)=factx(1,trtdim)+1
           else 
               factx(2,trtdim)=factx(2,trtdim)+1
           endif
         else
-	  if(randno.lt.propxpc)then
-              factx(1,trtdim)=factx(1,trtdim)+1
+	        if(randno.lt.propxpc)then
+            factx(1,trtdim)=factx(1,trtdim)+1
           else 
-              factx(2,trtdim)=factx(2,trtdim)+1
+            factx(2,trtdim)=factx(2,trtdim)+1
           endif
         endif
       end do
@@ -147,7 +147,7 @@ c convert to %s & assign array values to variables to be passed back top main pr
       if(nrandb.eq.0)then
         fact1_1b=0
       else	
-     	fact1_1b=nint(100.0*fact1(1,2)/real(nrandb))
+     	  fact1_1b=nint(100.0*fact1(1,2)/real(nrandb))
       endif
       fact1_1bn=fact1(1,2)      
       
