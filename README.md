@@ -29,10 +29,7 @@ Fry-IT Ltd took over maintenance and development of the CTSU website which was p
 
 The URL http://www.ctsu.ox.ac.uk/external/jameslind/simplerand/simplerand3.cgi is now unrecognised by Haiku and gives a 404 Not Found error.
 
-The old site has been archived on [port 9000 of rum](http://rum.ctsu.ox.ac.uk:9000/external/jameslind/simplerand/simplerand3.cgi) (accessible only from within the NDPH network), and also, `simplerand3.cgi` has [been migrated](http://gas.ctsu.ox.ac.uk/jameslind/simplerand/simplerand3.cgi) onto a new server, `gas.ndph.ox.ac.uk`.
- which is visible to the outside world.
-
-However, a decision has been made to end support of this application by creating a new, JavaScript-based version which can be bundled and sent to the James Lind Library for them to host themselves.
+The old site has been archived on [port 9000 of rum](http://rum.ctsu.ox.ac.uk:9000/external/jameslind/simplerand/simplerand3.cgi) (accessible only from within the NDPH network), and also, `simplerand3.cgi` has [been migrated](http://gas.ctsu.ox.ac.uk/jameslind/simplerand/simplerand3.cgi) onto a new server, `gas.ndph.ox.ac.uk`, which is visible to the outside world. However, a decision has been made to end support of this application by creating a new, JavaScript-based version which can be bundled and sent to the James Lind Library for them to host themselves. 
 
 Hence JS-Lind.
 
