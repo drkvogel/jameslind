@@ -58,25 +58,21 @@ int main(int argc, char** argv, char* envp[]) {
         if (FORM_REC == iFormSubmitted) {
             iNrand = iNrandRec;
             if (0 == strlen(szNrandRec) || iNrand < 0 || iNrand > 100000) { // check inputs
-                strcpy(szErrorNrandRec, _szErrorNrandRec);
-                bErr = 1;
+                strcpy(szErrorNrandRec, _szErrorNrandRec); bErr = 1;
             }
         }
-        if (FORM_UNREC == iFormSubmitted) { // redundant? custom category
-            iNrand = iNrandUnrec;
-            if (0 == strlen(szNrandUnrec) || iNrand < 0 || iNrand > 100000) {
-                strcpy(szErrorNrandUnrec, _szErrorNrandUnrec);
-                bErr = 1;
-            }
-            if (0 == strlen(szPercent) || iPercent < 0 || iPercent > 100) {
-                strcpy(szErrorPercent, _szErrorPercent);
-                bErr = 1;
-            }
-            if (0 == strlen(szCategory)) {
-                strcpy(szErrorCategory, _szErrorCategory);
-                bErr = 1;
-            }
-        }
+        // if (FORM_UNREC == iFormSubmitted) { // redundant? custom category
+        //     iNrand = iNrandUnrec;
+        //     if (0 == strlen(szNrandUnrec) || iNrand < 0 || iNrand > 100000) {
+        //         strcpy(szErrorNrandUnrec, _szErrorNrandUnrec); bErr = 1;
+        //     }
+        //     if (0 == strlen(szPercent) || iPercent < 0 || iPercent > 100) {
+        //         strcpy(szErrorPercent, _szErrorPercent); bErr = 1;
+        //     }
+        //     if (0 == strlen(szCategory)) {
+        //         strcpy(szErrorCategory, _szErrorCategory); bErr = 1;
+        //     }
+        // }
     }
     if (0 == bErr && FORM_NONE != iFormSubmitted) { // form submitted and no errors
         printresults();
