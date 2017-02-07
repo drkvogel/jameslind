@@ -14,276 +14,6 @@ char szCategory[100] = "";
 int seed = 0;
 char* CGI_TARGET = "simplerand3.cgi";
 
-void printresults1() {
-    int seed = 0, nrand = 0, propx = 0, nranda = 0, nrandb = 0,
-    fact1_1a = 0, fact1_1b = 0, fact1_2a = 0, fact1_2b = 0, fact2_1a = 0, fact2_1b = 0,
-    fact2_2a = 0, fact2_2b = 0, fact2_3a = 0, fact2_3b = 0, fact3_1a = 0, fact3_1b = 0,
-    fact3_2a = 0, fact3_2b = 0, fact3_3a = 0, fact3_3b = 0, fact3_4a = 0, fact3_4b = 0,
-    factx_1a = 0, factx_1b = 0, factx_2a = 0, factx_2b = 0,
-    fact1_1an = 0, fact1_1bn = 0, fact1_2an = 0, fact1_2bn = 0, fact2_1an = 0, fact2_1bn = 0,
-    fact2_2an = 0, fact2_2bn = 0, fact2_3an = 0, fact2_3bn = 0, fact3_1an = 0, fact3_1bn = 0,
-    fact3_2an = 0, fact3_2bn = 0, fact3_3an = 0, fact3_3bn = 0, fact3_4an = 0, fact3_4bn = 0,
-    factx_1an = 0, factx_1bn = 0, factx_2an = 0, factx_2bn = 0;
-    if (FORM_REC == iFormSubmitted) {
-        nrand = iNrandRec;
-    } else {
-        nrand = iNrandUnrec;
-    }
-    getseed_(&seed);
-    simplerand2_(
-        &seed,
-        &iFormSubmitted, &nrand, &iPercent, &nranda, &nrandb,
-        &fact1_1a, &fact1_1b, &fact1_2a, &fact1_2b, &fact2_1a, &fact2_1b,
-        &fact2_2a, &fact2_2b, &fact2_3a, &fact2_3b, &fact3_1a, &fact3_1b,
-        &fact3_2a, &fact3_2b, &fact3_3a, &fact3_3b, &fact3_4a, &fact3_4b,
-        &factx_1a, &factx_1b, &factx_2a, &factx_2b,
-        &fact1_1an, &fact1_1bn, &fact1_2an, &fact1_2bn, &fact2_1an, &fact2_1bn,
-        &fact2_2an, &fact2_2bn, &fact2_3an, &fact2_3bn, &fact3_1an, &fact3_1bn,
-        &fact3_2an, &fact3_2bn, &fact3_3an, &fact3_3bn, &fact3_4an, &fact3_4bn,
-        &factx_1an, &factx_1bn, &factx_2an, &factx_2bn);
-
-    printf(
-        "<html>\n"
-        "<head>\n"
-        "<title>Randomisation results</title>\n"
-        "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n"
-        "\n\n"
-        "<link rel=\"stylesheet\" href=\"cochrane.css\" type=\"text/css\">\n"
-        "\n\n"
-        "</head>\n"
-        "\n"
-        "<body bgcolor=\"#FFFFFF\">\n"
-        //"<table width=\"80%%\" align=\"center\">\n"
-        //"<tr><td>"
-        "<table border=1 cellspacing=0 cellpadding=10 width=750 bordercolor=\"#003366\" align=\"center\">\n"
-        "<tr><td>\n"
-
-        "  <table width=\"100%%\">\n"
-        "    <tr><td>\n"
-        "      <table width=\"200\" border=\"0\" align=\"left\" cellpadding=\"3\">\n"
-        "        <tr>\n"
-        "          <td bgcolor=\"#EAEEF7\" width=\"100\" height=\"2\"> <div align=\"center\"><a href=\"http://www.jameslindlibrary.org/\" class=\"menubar\">Home</a></div></td>\n"
-        "          <td bgcolor=\"#EAEEF7\" height=\"2\" width=\"100\"> <div align=\"center\"><a href=\"http://www.jameslindlibrary.org/search\" class=\"menubar\">Search</a></div></td>\n"
-        "        </tr>\n"
-        "        <tr bgcolor=\"#EAEEF7\">\n"
-        "          <td colspan=\"2\"> <div align=\"center\"><b><strong style=\"color: #003366\">jameslindlibrary.org</strong></b></div></td>\n"
-        "        </tr>\n"
-        "      </table><br>\n"
-        "    </td></tr>\n"
-        "    <tr><td>\n"
-        "        <h4 align=\"center\">%d patients were randomised,<br>%d to treatment A, %d treatment B:</h4>\n"
-        "    </td></tr>\n"
-        "  </table>\n"
-        "<table width=\"80%%\" align=\"center\" border=\"0\">\n"
-        "  <tr> \n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td align=\"right\">Treatment A</td>\n"
-        "    <td align=\"right\">Treatment B</td>\n"
-        "    <td width=\"25%%\">&nbsp;</td>\n"
-        "  </tr>\n"
-        "  <tr> \n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td align=\"right\">(total = %d)</td>\n"
-        "    <td align=\"right\">(total = %d)</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n"
-        "  <tr> \n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td align=\"right\">number (%%)</td>\n"
-        "    <td align=\"right\">number (%%)</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n"
-        "  <tr> \n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n",
-    nrand, nranda, nrandb,
-    nranda, nrandb);
-    
-    /*printf("<tr><td colspan=4>"
-        "fact1_1an, fact1_1a, fact1_1bn, fact1_1b, fact1_2an, fact1_2a, fact1_2bn, fact1_2b:<br>"
-        "%d, %d, %d, %d, %d, %d, %d, %d.</td></tr> \n", 
-        fact1_1an, fact1_1a, fact1_1bn, fact1_1b, fact1_2an, fact1_2a, fact1_2bn, fact1_2b);
-*/
-            printf(
-        "    <td colspan=\"2\"><b>Duration of health problem</b></td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n"
-        "  <tr> \n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>Long term</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n"
-        "  <tr> \n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>More recent</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n"
-        "  <tr> \n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n",
-    fact1_1an, fact1_1a, fact1_1bn, fact1_1b,
-    fact1_2an, fact1_2a, fact1_2bn, fact1_2b);
-    
-    printf(
-        "  <tr> \n"
-        "    <td colspan=\"2\"><b>Severity of health problem</b></td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n"
-        "  <tr> \n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>Mild</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n"
-        "  <tr> \n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>Moderate</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n"
-        "  <tr> \n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>Severe</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n"
-        "  <tr> \n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n",
-    fact2_1an, fact2_1a, fact2_1bn, fact2_1b,
-    fact2_2an, fact2_2a, fact2_2bn, fact2_2b,
-    fact2_3an, fact2_3a, fact2_3bn, fact2_3b);
-    
-    printf(
-        "  <tr> \n"
-        "    <td colspan=\"2\"><b>Age, in years</b></td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n"
-        "  <tr> \n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>Under 15</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n"
-        "  <tr> \n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>15-34</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n"
-        "  <tr> \n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>35-64</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n"
-        "  <tr> \n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>65 &amp; older</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n"
-        "  <tr> \n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "    <td>&nbsp;</td>\n"
-        "  </tr>\n",
-    fact3_1an, fact3_1a, fact3_1bn, fact3_1b,
-    fact3_2an, fact3_2a, fact3_2bn, fact3_2b,
-    fact3_3an, fact3_3a, fact3_3bn, fact3_3b,
-    fact3_4an, fact3_4a, fact3_4bn, fact3_4b);
-
-    printf(
-        "  <tr> "
-        "    <td colspan=\"2\"><b>Condition: %s</b></td>"
-        "    <td>&nbsp;</td>"
-        "    <td>&nbsp;</td>"
-        "  </tr>"
-        "  <tr> "
-        "    <td>&nbsp;</td>"
-        "    <td>Yes</td>"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>"
-        "  </tr>"
-        "  <tr> "
-        "    <td>&nbsp;</td>"
-        "    <td>No</td>"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>"
-        "    <td align=\"right\">&nbsp;%d (%d)</td>"
-        "  </tr>",
-        (FORM_UNREC == iFormSubmitted) ? szCategory : "Very anxious?",
-        factx_1an, factx_1a, factx_1bn, factx_1b,
-        factx_2an, factx_2a, factx_2bn, factx_2b);
-
-    printf(
-        "        <tr>\n"
-        "          <td>&nbsp;</td>\n"
-        "          <td>&nbsp;</td>\n"
-        "          <td align=\"right\">&nbsp;</td>\n"
-        "          <td align=\"right\">&nbsp;</td>\n"
-        "        </tr>\n"
-        "        <tr> \n"
-        "          <td>&nbsp;</td>\n"
-        "          <td colspan=\"3\">\n"
-        "            <form name=\"form1\" >\n"
-        "              <input type=\"hidden\" name=\"seed\" value=\"%d\">\n"
-        "              <input type=\"hidden\" name=\"ftype\" value=\"%d\">\n"
-        "              <input type=\"hidden\" name=\"cat\" value=\"%s\">\n"
-        "              <input type=\"hidden\" name=\"nrandrec\" value=\"%d\">\n"
-        "              <input type=\"hidden\" name=\"perc\" value=\"%d\">\n"
-        "              <input type=\"hidden\" name=\"power\" value=\"0\">\n"
-        "              <input type=\"submit\" name=\"Submit\" value=\"Make 10 times bigger\">\n"
-        "            </form>\n"
-        "          </td>\n"
-        "        </tr>\n",
-        seed,
-        iFormSubmitted + 2,
-        (FORM_UNREC == iFormSubmitted) ? szCategory : "Very anxious?",
-        nrand, iPercent);
-       
-    printf(
-        "</table>\n"
-        "<p><p><p><a href=\"javascript:history.go(-1)\"  onMouseOver=\"self.status=document.referrer;return true\"><<< Go Back</a>"
-        "</td></tr></table>\n"
-        "</body>\n"
-        "</html>\n");
-
-} // printresults1()
-
 int main(int argc, char** argv, char* envp[]) {
     const char _szErrorNrandRec[]   = "<p><font color=\"red\">*** Number of patients must be between 0 and 10000 ***</font></p>\n";
     const char _szErrorCategory[]   = "<tr><td>&nbsp;</td><td><span><font color=\"red\">&gt;&gt;&gt; Please enter a category to be randomised</font></td></tr></span>\n";
@@ -303,23 +33,23 @@ int main(int argc, char** argv, char* envp[]) {
     strcpy(szErrorPercent, "\0");
     strcpy(szErrorNrandRec, "\0");
     strcpy(szErrorNrandUnrec, "\0");
-    if (USE_CGI) {
+    if (USE_CGI) { // live
         xcgi_init(argc, argv);
         xcgi_header("html");
-    }
-    fprintf(stderr, "test\n");
+    } //fprintf(stderr, "test\n");
     
-    if (0 == strlen(xcgi_param_value_named("ftype")))
+    if (0 == strlen(xcgi_param_value_named("ftype"))) { // nothing submitted
         iFormSubmitted = FORM_NONE;
-    else
+    } else { // user has submitted form
         iFormSubmitted = atoi(xcgi_param_value_named("ftype"));
+    }
 
     if (FORM_NONE != iFormSubmitted) {
-        strcpy(szPercent,    xcgi_param_value_named("perc"));
-        strcpy(szNrandRec,   xcgi_param_value_named("nrandrec"));
-        strcpy(szNrandUnrec, xcgi_param_value_named("nrandunrec"));
-        strcpy(szCategory,   xcgi_param_value_named("cat"));
-        strcpy(szPower,      xcgi_param_value_named("power"));
+        strcpy(szPercent,    xcgi_param_value_named("perc"));       // Percentage
+        strcpy(szNrandRec,   xcgi_param_value_named("nrandrec"));   // Starting number to randomise
+        strcpy(szNrandUnrec, xcgi_param_value_named("nrandunrec")); // not used?
+        strcpy(szCategory,   xcgi_param_value_named("cat"));        // not used, always "Very anxious"
+        strcpy(szPower,      xcgi_param_value_named("power"));      // 10, 100, 1000 times bigger
         iPercent    = atoi(szPercent);
         iNrandRec   = atoi(szNrandRec);
         iNrandUnrec = atoi(szNrandUnrec);
@@ -327,21 +57,18 @@ int main(int argc, char** argv, char* envp[]) {
         seed = atoi(xcgi_param_value_named("seed"));
         if (FORM_REC == iFormSubmitted) {
             iNrand = iNrandRec;
-            if (0 == strlen(szNrandRec)
-                || iNrand < 0 || iNrand > 100000) {
+            if (0 == strlen(szNrandRec) || iNrand < 0 || iNrand > 100000) { // check inputs
                 strcpy(szErrorNrandRec, _szErrorNrandRec);
                 bErr = 1;
             }
         }
-        if (FORM_UNREC == iFormSubmitted) {
+        if (FORM_UNREC == iFormSubmitted) { // redundant? custom category
             iNrand = iNrandUnrec;
-            if (0 == strlen(szNrandUnrec)
-                || iNrand < 0 || iNrand > 100000) {
+            if (0 == strlen(szNrandUnrec) || iNrand < 0 || iNrand > 100000) {
                 strcpy(szErrorNrandUnrec, _szErrorNrandUnrec);
                 bErr = 1;
             }
-            if (0 == strlen(szPercent)
-                || iPercent < 0 || iPercent > 100) {
+            if (0 == strlen(szPercent) || iPercent < 0 || iPercent > 100) {
                 strcpy(szErrorPercent, _szErrorPercent);
                 bErr = 1;
             }
@@ -351,7 +78,7 @@ int main(int argc, char** argv, char* envp[]) {
             }
         }
     }
-    if (0 == bErr && FORM_NONE != iFormSubmitted) {
+    if (0 == bErr && FORM_NONE != iFormSubmitted) { // form submitted and no errors
         printresults();
     } else { // show introduction
         printf(

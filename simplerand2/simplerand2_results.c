@@ -73,7 +73,7 @@ void printresults() {
     if (FORM_REC == iFormSubmitted) {
         nrand = iNrandRec;
     } else {
-        nrand = iNrandUnrec;
+        nrand = iNrandUnrec; // redundant
     }
     if (0 == iPower) {
         getseed_(&seed);
